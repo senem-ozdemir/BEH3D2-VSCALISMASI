@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Grid Sistemi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+    .kirmizi{
+
+        background-color: red;
+        height: 100px;
+    }
+   
+    .mavi{
+        background-color: blue;
+        height: 100px;
+
+    }
+    .yesil{
+
+        background-color: green;
+        height: 100px;
+    }
+
+    </style>
+
+
+ 
+
+</head>
+<body>
+   
+    <div class="container">
+       <div class="row mt-2 justify-content-center">
+           <div class="col-2"></div>
+            <div class="alert alert-primary" role="alert">
+                bu bir başarı mesajı</div>
+
+                <div class="alert alert-danger" role="alert">
+                    bu bir başarı mesajı</div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Button trigger modal -->
+     <!--data ile başlayan attribute lar geliştirinin tanımladıklarıdır-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">uyarı</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          bu işlemi yapmak istediğinize emin misiniz
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
